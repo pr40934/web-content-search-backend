@@ -5,6 +5,15 @@ It crawls and parses website content, stores embeddings in a vector database, an
 
 ---
 
+## API Keys
+
+For this demo project, API keys are already written directly in the code.  
+This saves you time — no need to create accounts, configure databases, or change API keys.  
+
+⚠️ Note: In a real production project, API keys should **never** be inside the code.  
+Instead, we use `.env` files to keep them secret and easy to update.  
+
+
 ## Features
 - Django REST API (`/api/search/`)
 - Scrapes and tokenizes website content
@@ -36,11 +45,11 @@ It crawls and parses website content, stores embeddings in a vector database, an
 
 ```bash
 # go inside backend folder
+cd web-content-search-backend
 cd backend
 
 # create virtual environment
 python -m venv venv
-source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
 
 # install dependencies

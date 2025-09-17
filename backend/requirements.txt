@@ -1,0 +1,6 @@
+Django>=5.2.6
+djangorestframework
+requests
+beautifulsoup4
+sentence-transformers
+django-cors-headers
